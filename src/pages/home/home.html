@@ -1,14 +1,29 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Marathon Finder
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+   <ion-card (click)="goToDetails()">
+      <img src="assets/images/running.jpg"/>
+      <div class="card-title">Run India Run</div>
+      <div class="card-subtitle">On 27th October</div>
+    </ion-card>
+
+    <ion-card (click)="goToDetails()">
+      <img src="assets/images/running.jpg"/>
+      <div class="card-title">Run India Run</div>
+      <div class="card-subtitle">On 27th October</div>
+    </ion-card>
+
+    <ion-card (click)="goToDetails()">
+      <img src="assets/images/running.jpg"/>
+      <div class="card-title">Run India Run</div>
+      <div class="card-subtitle">On 27th October</div>
+    </ion-card>
+    
 </ion-content>
+
