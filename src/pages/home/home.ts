@@ -9,7 +9,7 @@ import { DetailPage } from './../detail/detail';
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
-
+    
   }
 
   goToDetails() {
