@@ -3,7 +3,7 @@ export class Event {
   eventId: string;
   eventDate: Date;
   eventLocation: string;
-  eventRegisterationStatus: string // 1 - OPEN/ 0 - CLOSED
+  eventRegisterationStatus: number // 1 - OPEN/ 0 - CLOSED
   eventMapData: string;
   eventDescription: string;
   eventBanner: string;
@@ -20,5 +20,5 @@ export class Event {
   ];
   eventDistance: string;
   eventPhotos: [string];
-  eventType: string; // PAID 1: OPEN 0
+  eventType: number; // PAID 1: OPEN 0
 }
